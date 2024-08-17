@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+}
+.rot{
+    transform: rotateY(180deg) !important;
+}
+body{
+    font-family: "Lato"
+}
+.hide{
+    display: none !important;
+}
